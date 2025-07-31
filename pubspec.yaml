@@ -1,6 +1,7 @@
 name: flutter_deferred_deeplink
 description: A Flutter plugin to access Play Store deferred deep links using Install Referrer API.
 version: 0.1.0
+publish_to: 'none'
 homepage: https://github.com/bimal-py/flutter_deferred_deeplink
 
 environment:
