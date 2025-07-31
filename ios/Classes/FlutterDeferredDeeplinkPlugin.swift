@@ -10,11 +10,12 @@ public class FlutterDeferredDeeplinkPlugin: NSObject, FlutterPlugin {
 
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     if call.method == "getDeferredLink" {
-        if let referrer = UIPasteboard.general.string {
-            result(referrer)
-        } else {
-            result(nil)
-        }
+        // if let referrer = UIPasteboard.general.string {
+        //     result(referrer)
+        // } else {
+        //     result(nil)
+        // }
+      result(nil)
     } else {
         result(FlutterMethodNotImplemented)
     }
